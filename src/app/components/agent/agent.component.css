@@ -1,0 +1,52 @@
+
+.card-body {
+    position: absolute;margin: 0%;
+    top: 45%;left: 50%;margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.card-body .card-text {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.agenthome {
+    padding: 20px;
+    color: #17365D;
+}
+
+.card-body .card-title{
+    font-size: 18px;              
+}
+
+.sp {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.card {
+    width: 15rem;
+    height: 11rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23);
+    margin-right: 30px;
+    
+}
+
+.active-agent {
+    color: rgb(0, 120, 113);font-weight: bold;
+}
+
+.disconnected-agent {
+    color: rgb(189, 39, 30);font-weight: bold;
+}
+.pending-agent {
+    color: rgb(254, 197, 20);font-weight: bold;
+}
+.never-Connected-agent {
+    color: rgb(100, 106, 119);font-weight: bold;
+}
+.total-agent {
+    color: rgb(0, 107, 180);font-weight: bold;
+}
